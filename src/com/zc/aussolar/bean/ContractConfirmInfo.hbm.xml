@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.zc.aussolar.bean.ContractConfirmInfo" table="tbl_contract_confirm_info">
+		<id name="vid">
+			<generator class="native"></generator>
+		</id>
+		<property name="project_id"></property>
+		<property name="quote_record_id"></property>
+		<property name="quote_info_confirm"></property>
+		<property name="contract_info_confirm"></property>
+		<property name="fee_info_confirm"></property>
+		<property name="phase_info_confirm"></property>
+		<property name="nearmap_info_confirm"></property>
+		<property name="comment_info_confirm"></property>
+		<property name="deposit_confirm"></property>
+		<property name="dd_info_confirm"></property>
+		<property name="certegy_confirm"></property>
+		<property name="asm_confirm"></property>
+		<property name="other_finance_confirm"></property>
+		<property name="status"></property>
+		<property name="admin_comment"></property>
+	</class>
+</hibernate-mapping>
+	

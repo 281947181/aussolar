@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.zc.aussolar.bean.QuoteRecord" table="tbl_quote_record">
+		<id name="vid">
+			<generator class="native"></generator>
+		</id>
+		<property name="project_id"></property>
+		<property name="quote_date"></property>
+		<property name="quote_person"></property>
+		<property name="panel_brand"></property>
+		<property name="panel_size"></property>
+		<property name="panel_number"></property>
+		<property name="inverter_brand"></property>
+		<property name="inverter_size"></property>
+		<property name="system_size"></property>
+		<property name="price"></property>
+		<property name="deposit"></property>
+		<property name="payment"></property>
+		<property name="install_comment"></property>
+		<property name="status"></property>
+		<property name="confirm_date"></property>
+		<property name="confirm_person"></property>
+		<property name="ABN"></property>
+		<property name="business_type"></property>
+	</class>
+</hibernate-mapping>
+	

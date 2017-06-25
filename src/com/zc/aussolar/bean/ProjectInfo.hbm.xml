@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.zc.aussolar.bean.ProjectInfo" table="tbl_project_info">
+		<id name="vid">
+			<generator class="native"></generator>
+		</id>
+		<property name="project_id"></property>
+		<property name="project_status"></property>
+		<property name="stc_status"></property>
+		<property name="money_status"></property>
+		<property name="stc_date"></property>
+		<property name="money_date"></property>
+		<property name="issue_status"></property>
+		<property name="issue_date"></property>
+		<property name="wp_status"></property>
+		<property name="wp_comment"></property>
+		<property name="wp_submit_date"></property>
+		<property name="wp_approved_date"></property>
+		
+		
+		<property name="create_date"></property>
+		<property name="create_person"></property>
+		<property name="leads_type"></property>
+		<property name="leads_comment"></property>
+		<property name="leads_from"></property>
+		<property name="leads_knocker"></property>
+		<property name="customer_name"></property>
+		<property name="customer_phone"></property>
+		<property name="customer_address"></property>
+		<property name="customer_address_lat"></property>
+		<property name="customer_address_lng"></property>
+		<property name="customer_subburb"></property>
+		<property name="customer_postcode"></property>
+		<property name="customer_state"></property>
+		<property name="customer_email"></property>
+		<property name="customer_roof_type"></property>
+		<property name="customer_storey"></property>
+		<property name="customer_phase_type"></property>
+		
+		
+		<property name="asign_to"></property>
+		<property name="asign_date"></property>
+		
+		
+		<property name="contact_date"></property>
+		<property name="contact_person"></property>
+		<property name="contact_comment"></property>
+		
+		
+		<property name="quoted_date"></property>
+		<property name="quoted_person"></property>
+		
+		
+		<property name="confirm_date"></property>
+		<property name="confirm_person"></property>
+		
+		
+		<property name="visit_date"></property>
+		<property name="visit_person"></property>
+		
+		
+		<property name="contract_date"></property>
+		<property name="contract_person"></property>
+		
+		
+		<property name="install_date"></property>
+		<property name="install_person"></property>
+		<property name="install_arrange_person"></property>
+		<property name="install_arrange_date"></property>
+		<property name="to_install_date"></property>
+		<property name="install_comment"></property>
+		
+		
+		<property name="finish_date"></property>
+		<property name="finish_person"></property>
+		<property name="finish_remark"></property>
+		<property name="commission_status"></property>
+		<property name="commission_value"></property>
+	</class>
+</hibernate-mapping>
+	

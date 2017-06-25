@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.zc.aussolar.bean.UserInfo" table="tbl_user_info">
+		<id name="vid">
+			<generator class="native"></generator>
+		</id>
+		<property name="username"></property>
+		<property name="salt"></property>
+		<property name="password"></property>
+		<property name="role"></property>
+		<property name="real_name"></property>
+	</class>
+</hibernate-mapping>
+	
